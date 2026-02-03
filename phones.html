@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <!-- nav bar -->
+      <section class="row">
+            <div class="col-md-12">
+                <!-- nav tag carries all the content of the nav bar -->
+                <nav class="navbar navbar-expand-md navbrar-light bg-light">
+                    <a href="" class="navbar-brand"><b>Phone collections</b></a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- div that will carry the nurve bar links -->
+                    <div class="collapse navbar-collapse" id="navbarcollapse">
+                        <div class="navbar-nav">
+                            <a href="index.html" class="nav-link active">Home</a>
+                            <a href="" class="nav-link">Iphone</a>
+                            <a href="" class="nav-link">Samsung</a>
+                            <a href="" class="nav-link">Xiaomi</a>
+                            <a href="" class="nav-link">Tecno</a>
+                            <a href="phones.html" class="nav-link">Sign up</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+
+        </section>
+     <h1></h1>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfect Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(120deg, #4facfe, #00f2fe);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            background: #fff;
+            padding: 25px;
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        fieldset {
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        legend {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: 600;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #4facfe;
+        }
+
+        .inline {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .inline input {
+            width: auto;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            background: #4facfe;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #3a8dde;
+        }
+    </style>
+</head>
+<body>
+
+<form action="#" method="post">
+    <fieldset>
+        <legend>Personal Details</legend>
+
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="id">ID Number</label>
+        <input type="number" id="id" name="id" placeholder="Enter ID number" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+    </fieldset>
+
+    <fieldset>
+        <legend>Preferences</legend>
+
+        <label>Interests</label>
+        <div class="inline">
+            <input type="checkbox" id="iphone" name="interests[]" value="Iphone">
+            <label for="iphone">Iphone</label>
+
+            <input type="checkbox" id="samsung" name="interests[]" value="Samsung">
+            <label for="samsung">Samsung</label>
+
+            <input type="checkbox" id="xiaomi" name="interests[]" value="Xiaomi">
+            <label for="xiaomi">Xiaomi</label>
+        </div>
+
+        <label>Gender</label>
+        <div class="inline">
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </div>
+
+        <label for="phone">Select Phone</label>
+        <select id="phone" name="phone" required>
+            <option value="">-- Choose a phone --</option>
+            <option>Iphone</option>
+            <option>Samsung</option>
+            <option>Xiaomi Redmi</option>
+            <option>Tecno</option>
+        </select>
+
+        <label for="photo">Upload Picture</label>
+        <input type="file" id="photo" name="photo" accept="image/*">
+    </fieldset>
+
+    <fieldset>
+        <legend>Comments</legend>
+        <textarea name="comment" rows="4" placeholder="Write your comment here..."></textarea>
+    </fieldset>
+
+    <button type="submit">Apply Now</button>
+</form>
+
+</body>
+</html>
+
+</body>
+</html>
